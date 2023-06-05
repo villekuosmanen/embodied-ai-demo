@@ -32,3 +32,7 @@ Note: `viewer` is built as part of the above process. You need to disable headle
     - `git clone --branch stable https://github.com/facebookresearch/habitat-lab.git`
 - `cd habitat-lab`
 - `pip install -e habitat-lab`
+
+## Benchmarking
+
+`pytest -v -s test_baseline_agents.py::test_custom_agents`
